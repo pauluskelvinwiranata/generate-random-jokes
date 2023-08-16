@@ -33,11 +33,11 @@ body {
 
 .wrapper span {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 100px;
 }
 
-.wrapper joke {
+.wrapper #joke {
   min-height: 120px;
   font-size: 19px;
 }
@@ -72,5 +72,21 @@ body {
 
   .wrapper span {
     font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 591px) {
+  .wrapper h1 {
+    font-size: 20px;
+  }
+
+  .wrapper #joke {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 397px) {
+  .wrapper h1 {
+    font-size: 15px;
   }
 }
